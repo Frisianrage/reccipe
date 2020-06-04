@@ -1,0 +1,23 @@
+body {
+  width: 1200px;
+}
+
+.title {
+  text-align: center;
+  margin: 50px;
+}
+
+.description {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.ingredients {
+  margin: 100px;
+}
+
+.picture {
+  text-align: center;
+}
