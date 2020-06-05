@@ -23,6 +23,7 @@ body {
   position: relative;
 }
 
+/*
 .picture::after {
   content: "the title";
   width: 100%;
@@ -36,5 +37,22 @@ body {
 }
 
 .picture:hover::after {
+  opacity: 1;
+}
+*/
+
+.titleonpic {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  font-size: 40px;
+}
+
+.titleonpic:hover {
   opacity: 1;
 }
