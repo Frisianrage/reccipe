@@ -1,8 +1,7 @@
-function getTitle{
-    console.log(this.title);
-};
+function getTitle() {
+  console.log(document.title);
+}
 
-function showUrl
-{
-    alert(window.location.href);
+function showUrl() {
+  alert(window.location.href);
 }
