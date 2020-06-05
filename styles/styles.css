@@ -20,4 +20,21 @@ body {
 
 .picture {
   text-align: center;
+  position: relative;
+}
+
+.picture::after {
+  content: "the title";
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  font-size: 50px;
+  transition: opacity 0.8s ease;
+}
+
+.picture:hover::after {
+  opacity: 1;
 }
