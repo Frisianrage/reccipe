@@ -3,24 +3,26 @@ body {
 }
 
 .title {
-  text-align: center;
-  margin: 50px;
+  margin: 1rem auto;
 }
 
 .description {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 85%;
 }
 
 .ingredients {
-  margin: 100px;
+  margin: 1rem auto;
 }
 
 .picture {
   text-align: center;
-  position: relative;
+}
+
+.picturediv {
+  height: 100%;
 }
 
 /*
