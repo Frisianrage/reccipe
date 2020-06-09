@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="../src/app.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>Grilled Carrots</title>
-  </head>
-  <body onload="setTitle()">
-    <div class="container">
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <script src="../src/app.js"></script>
+
+  <title>Grilled Eggplant</title>
+</head>
+
+<body onload="setTitle()">
+  <div class="container">
+    <div class="row">
       <h1 class="title">Grilled Eggplant in Sweet Chili Garlic Sauce</h1>
-      <div class="description">
+    </div>
+    <div class="row">
+      <div class="col-md-6 description">
         <p>
           This simple eggplant recipe can be made with grilled eggplants.
         </p>
@@ -41,11 +42,14 @@
         </p>
       </div>
 
-      <div class="picture">
-        <img src="../images/eggplant-sweet-chili.jpg" />
-        <h2 id="titleonpic"></h2>
-      </div>
-      <div class="ingredients">
+
+    <div class="col-md-6 picture">
+      <img src="../images/eggplant-sweet-chili.jpg" class="img-fluid" alt="Grilled Eggplant" />
+      <h2 id="titleonpic"></h2>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-12 ingredients">
         <table class="table table-striped">
           <thead>
             <th>amount</th>
@@ -85,9 +89,11 @@
           </tr>
         </table>
       </div>
-      <button onclick="showUrl()" type="button" class="btn btn-primary">
-        Share
-      </button>
     </div>
-  </body>
+    <button onclick="showUrl()" type="button" class="btn btn-primary">
+      Share
+    </button>
+  </div>
+</body>
+
 </html>
