@@ -45,3 +45,8 @@ h5 {
   height: 18vw;
   object-fit: cover;
 }
+
+.card {
+  border: none;
+  padding: 5px;
+}
