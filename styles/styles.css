@@ -35,3 +35,18 @@ body {
 #titleonpic:hover {
   opacity: 1;
 }
+
+h5 {
+  padding-top: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  padding: 5px;
+}
