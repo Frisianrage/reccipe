@@ -57,3 +57,7 @@ h5 {
   border: none;
   padding: 5px;
 }
+
+.card a {
+  color: white;
+}
