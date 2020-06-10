@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="../src/app.js"></script>
 
-    <title>Tomato Pasta Salad</title>
-  </head>
-  <body onload="setTitle()">
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <script src="../src/app.js"></script>
+
+  <title>Tomato Pasta Salad</title>
+</head>
+
+<body onload="setTitle()">
+  <div class="container">
+    <div class="row">
       <h1 class="title">Tomato Pasta Salad</h1>
-      <div class="description">
+    </div>
+    <div class="row">
+      <div class="col-md-6 description">
         <p>
           Angela Hartnett’s light and summery pasta salad requires just five
           ingredients (four excluding olive oil) so quality is key here. Make it
@@ -27,13 +28,15 @@
           lunch.
         </p>
       </div>
-      <div class="picture">
-        <img src="../images/orrechiette-pasta-salad-768x960.jpg" />
+      <div class="col-md-6 picture">
+        <img src="../images/orrechiette-pasta-salad-768x960.jpg" class="img-fluid" alt="Grilled Carrots" />
         <div class="pictxt">
           <h2 id="titleonpic"></h2>
         </div>
       </div>
-      <div class="ingredients">
+    </div>
+    <div class="row">
+      <div class="col-12 ingredients">
         <table class="table table-striped">
           <thead>
             <th>amount</th>
@@ -61,7 +64,12 @@
           </tr>
         </table>
       </div>
-      <button onclick="showUrl()" type="button" class="btn btn-primary">Share</button>
-    </h2>
-  </body>
+    </div>
+
+    <button onclick="showUrl()" type="button" class="btn btn-primary">
+      Share
+    </button>
+  </div>
+</body>
+
 </html>
