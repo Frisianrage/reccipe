@@ -5,6 +5,7 @@ body {
 
 .title {
   margin: 1rem auto;
+  font-weight: 700;
 }
 
 .description {
