@@ -21,7 +21,7 @@ body {
   margin: 1rem auto;
 }
 
-#titleonpic {
+.pictxt {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -31,9 +31,15 @@ body {
   opacity: 0;
   transition: opacity 0.8s ease;
   font-size: 40px;
+
+  text-align: center;
 }
 
-#titleonpic:hover {
+.pictxt h2 {
+  margin-top: 0.5rem;
+}
+
+.pictxt:hover {
   opacity: 1;
 }
 
